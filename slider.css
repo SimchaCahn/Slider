@@ -1,0 +1,22 @@
+.simSliderTabUnderliner {
+    height: 4px;
+    position: absolute;
+}
+.simSliderMenuLabel {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+}
+.simSliderMenuLabel: hover {
+    background: hsl(43, 78%, 71%);
+}
+
+.simSliderOuterWrapper {
+    overflow: hidden;
+}
+.simSliderInnerWrapper {
+    display: flex;
+}
